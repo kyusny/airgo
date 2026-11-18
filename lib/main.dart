@@ -18,7 +18,7 @@ class AirColors {
 const studentName = 'FIENNY HANNY ANAK ASLEE';
 const matricNumber = '2025219862';
 const courseName = 'CS251';
-const githubUrl = 'https://github.com/YOUR_USERNAME/airgo';
+const githubUrl = 'https://github.com/kyusny/airgo';
 
 void main() => runApp(const AirGoApp());
 
