@@ -688,16 +688,17 @@ class AboutPage extends StatelessWidget {
               child: Column(
                 children: [
                   // In-app symbol; set up the real launcher icon separately.
-                  Container(
-                    width: 86,
-                    height: 86,
-                    decoration: BoxDecoration(
-                      color: AirColors.orange,
-                      borderRadius: BorderRadius.circular(24),
-                    ),
-                    child: const Icon(Icons.flight_takeoff,
-                        size: 45, color: AirColors.white),
-                  ),
+                  
+ClipRRect(
+  borderRadius: BorderRadius.circular(24),
+  child: Image.asset(
+    'assets/icon/airgo_icon.png',
+    width: 86,
+    height: 86,
+    fit: BoxFit.cover,
+  ),
+),
+
                   const SizedBox(height: 13),
                   const Text('AIRGO',
                       style: TextStyle(
